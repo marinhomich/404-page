@@ -11,6 +11,17 @@ function App() {
         <div className="h-full flex flex-col gap-10  justify-center text-center xl:text-end md:mr-10 xl:w-1/5 ml-auto">
           <Message />
           <Button title="Back to Home" />
+          <p style={{ color: "#9461a6" }}>
+            Designed By:{" "}
+            <a
+              className="hover:text-white cursor-pointer duration-150"
+              href="https://twitter.com/xsthayna"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @xsthayna
+            </a>
+          </p>
         </div>
       </div>
     </div>
